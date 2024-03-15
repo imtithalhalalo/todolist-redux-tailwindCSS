@@ -1,30 +1,56 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + TailwindCSS + Redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ToDo List Application
 
-Currently, two official plugins are available:
+This ToDo List application provides a simple and intuitive way to manage your tasks efficiently. Built with Redux for state management, it offers powerful features such as search functionality and filters for organizing tasks based on completion status.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+1. **Search Functionality**: 
+    - Easily find tasks by entering keywords into the search bar.
+    - Dynamically updates the list to display only tasks that match the search query.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. **Redux State Management**: 
+    - Utilizes Redux for efficient state management.
+    - Ensures consistency across the application.
+    - Enables seamless data flow between components.
 
-- Configure the top-level `parserOptions` property like this:
+3. **Filtering Options**:
+    - **All Tasks**: View all tasks currently in the list.
+    - **Completed Tasks**: Filter to display only tasks that have been marked as completed.
+    - **Incomplete Tasks**: Filter to show tasks that are yet to be completed.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+These features collectively provide a comprehensive and user-friendly task management experience, enhancing productivity and organization.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Image 
+![ToDo List App](https://github.com/imtithalhalalo/todolist-redux-tailwindCSS/src/sample.png)
+
+## Installation
+
+To run this application locally, follow these steps:
+
+1. Clone the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/imtithalhalalo/todolist-redux-tailwindCSS
+    ```
+
+2. Navigate into the project directory:
+
+    ```bash
+    cd todo-list
+    ```
+
+3. Install dependencies using npm:
+
+    ```bash
+    npm install
+    ```
+
+## Usage
+
+To start the development server, run:
+
+```bash
+npm start
+
