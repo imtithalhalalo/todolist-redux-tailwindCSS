@@ -23,7 +23,7 @@ This ToDo List application provides a simple and intuitive way to manage your ta
 These features collectively provide a comprehensive and user-friendly task management experience, enhancing productivity and organization.
 
 ## Image 
-![ToDo List App](https://github.com/imtithalhalalo/todolist-redux-tailwindCSS/src/sample.png)
+![ToDo List App](https://github.com/imtithalhalalo/todolist-redux-tailwindCSS/blob/main/src/sample.png)
 
 ## Installation
 
