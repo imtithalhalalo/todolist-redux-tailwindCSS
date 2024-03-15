@@ -38,7 +38,7 @@ To run this application locally, follow these steps:
 2. Navigate into the project directory:
 
     ```bash
-    cd todo-list
+    cd todolist-redux-tailwindCSS
     ```
 
 3. Install dependencies using npm:
